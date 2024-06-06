@@ -13,7 +13,7 @@ function calculateBMI(weight, height) {
 }
 try {
     const bmi = calculateBMI(70, 1.75);
-    console.log(bmi); // Output: 22.857142857142858
+    console.log(bmi);
 }
 catch (error) {
     if (error instanceof Error) {
